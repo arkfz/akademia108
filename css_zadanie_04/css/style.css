@@ -1,0 +1,46 @@
+div.animation {
+	height: 271px;
+	width: 351px;
+	background-image: url(../img/10.jpg);
+	animation-name: odliczanie;
+	animation-duration: 11s;
+	animation-timing-function: step-start;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+}
+
+@keyframes odliczanie {
+	0% {
+		background-image: url(../img/10.jpg);
+	}
+	10% {
+		background-image: url(../img/9.jpg);
+	}
+	20% {
+		background-image: url(../img/8.jpg);
+	}
+	30% {
+		background-image: url(../img/7.jpg);
+	}
+	40% {
+		background-image: url(../img/6.jpg);
+	}
+	50% {
+		background-image: url(../img/5.jpg);
+	}
+	60% {
+		background-image: url(../img/4.jpg);
+	}
+	70% {
+		background-image: url(../img/3.jpg);
+	}
+	80% {
+		background-image: url(../img/2.jpg);
+	}
+	90% {
+		background-image: url(../img/1.jpg);
+	}
+	100% {
+		background-image: url(../img/love.jpg);
+	}
+}

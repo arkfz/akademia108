@@ -1,0 +1,91 @@
+.glowny {
+    height: 610px;
+    width: 610px;
+    position: relative;
+  }
+  .wewnetrzny {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+  }
+  #red {
+    background-color: red;
+    top: 0px;
+    left: 0px;
+  }
+  #blue {
+    background-color: blue;
+    top: 0px;
+    left: 205px;
+  }
+  #green {
+    background-color: green;
+    top: 0px;
+    left: 410px;
+  }
+  #yellow {
+    background-color: yellow;
+    top: 205px;
+    left: 0px;
+  }
+  #black {
+    background-color: black;
+    top: 205px;
+    left: 205px;
+  }
+  #orange {
+    background-color: orange;
+    top: 205px;
+    left: 410px;
+  }
+  #purple {
+    background-color: purple;
+    top: 410px;
+    left: 0px;
+  }
+  #grey {
+    background-color: grey;
+    top: 410px;
+    left: 205px;
+  }
+  #pink {
+    background-color: pink;
+    top: 410px;
+    left: 410px;
+  }
+  .kolo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid black;
+    top: 50px;
+    left: 50px;
+  }
+  #kolopink {
+    background-color: pink;
+  }
+  #kologrey {
+    background-color: grey;
+  }
+  #kolopurple {
+    background-color: purple;
+  }
+  #kologreen {
+    background-color: green;
+  }
+  #kolored {
+    background-color: red;
+  }
+  #koloblue {
+    background-color: blue;
+  }
+  #koloorange {
+    background-color: orange;
+  }
+  #koloyellow {
+    background-color: yellow;
+  }
+  #koloblack {
+    background-color: black;
+  }
